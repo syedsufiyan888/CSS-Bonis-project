@@ -4,8 +4,19 @@ body{
     box-sizing: border-box;
     width: 100%;
     height: auto;
+    font-family: karla;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    vertical-align: middle;
+    border: 1px solid black;
 }
 nav ul{
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
     list-style: none;
     padding-left: 1.5rem;
     padding-top: 0.8rem;
@@ -15,6 +26,7 @@ nav ul{
     vertical-align: middle;
 }
 .menubar{
+    padding-top: 0.5rem;
     padding-right: 2rem;
     vertical-align: middle;
 }
@@ -25,17 +37,64 @@ nav ul{
 .unleashyour {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 8%;
     text-align: center;    
     line-height: 3.3rem;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .appgooglestore {
     width: 50%;
     height: auto;
     position: absolute;
     top: 45%;
-    left: 20%;
-    line-height:3rem;    
+    left: 25%;
+    /* align-items: center; */
+    line-height:3.5rem;    
+}
+.advantages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.advantages img{
+    width: 3.5rem;
+    height: auto;
+    /* padding-left: 1.3rem; */
+    
+}
+.advant{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: center;
+    /* line-height: 1rem; */
+}
+.advantages .heading{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(0, 0, 131);
+    line-height: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+}
+.advantages p{
+    text-align: center;
+}
+
+.products img{
+    width: 88%;
+    height: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 2rem;
+}
+.products .heading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
