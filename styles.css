@@ -37,7 +37,8 @@ nav ul{
 .unleashyour {
     position: absolute;
     top: 10%;
-    left: 8%;
+    /* left: 8%; */
+    width: 100%;
     text-align: center;    
     line-height: 3.3rem;
     color: white;
