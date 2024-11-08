@@ -22,3 +22,20 @@ nav ul{
     width: 100%;
     height: auto;
 }
+.unleashyour {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;    
+    line-height: 3.3rem;
+    color: white;
+    font-size: 2rem;
+}
+.appgooglestore {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    line-height:3rem;    
+}
