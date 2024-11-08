@@ -36,11 +36,11 @@ nav ul{
 }
 .unleashyour {
     position: absolute;
-    top: 10%;
+    top: 8%;
     /* left: 8%; */
     width: 100%;
     text-align: center;    
-    line-height: 3.3rem;
+    line-height: 3.2rem;
     color: white;
     font-size: 2.5rem;
 }
@@ -50,6 +50,16 @@ nav ul{
     position: absolute;
     top: 45%;
     left: 25%;
+    /* align-items: center; */
+    line-height:3.5rem;    
+}
+.dots{
+    width: 25%;
+    
+    height: auto;
+    position: absolute;
+    top: 77%;
+    left: 32%;
     /* align-items: center; */
     line-height:3.5rem;    
 }
