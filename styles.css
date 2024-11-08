@@ -93,8 +93,35 @@ nav ul{
     padding-right: 6%;
     padding-bottom: 2rem;
 }
-.products .heading{
+/* .products .heading{
     position: fixed;
-    top: 50%;
+    top: 0%;
     left: 50%;
+} */
+.image-container {
+    position: relative;
+    text-align: center; 
+}
+
+.image-container .heading{
+    position: absolute;
+    top: 53%; 
+    left: 12%;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.image-container p{
+    position: absolute;
+    top: 70%; 
+    left: 15%;
+    /* font-size: 1.5rem; */
+    color: rgba(255, 255, 255, 0.708);
+    /* font-weight: 500; */
+    border: 2px solid rgba(255, 255, 255, 0.708);
+    border-radius: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    /* padding: 0.1rem; */
 }
