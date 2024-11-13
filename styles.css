@@ -32,7 +32,7 @@ nav ul{
 }
 .heroimage img{
     width: 100%;
-    height: auto;
+    /* height: ; */
 }
 .unleashyour {
     position: absolute;
@@ -40,28 +40,28 @@ nav ul{
     /* left: 8%; */
     width: 100%;
     text-align: center;    
-    line-height: 3.2rem;
+    line-height: 3rem;
     color: white;
-    font-size: 2.5rem;
+    font-weight: 500;
+    font-size: 2rem;
 }
 .appgooglestore {
     width: 50%;
     height: auto;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 25%;
     /* align-items: center; */
     line-height:3.5rem;    
 }
 .dots{
     width: 25%;
-    
     height: auto;
     position: absolute;
-    top: 77%;
-    left: 32%;
+    top: 80%;
+    left: 35%;
     /* align-items: center; */
-    line-height:3.5rem;    
+    line-height:3.5rem;  
 }
 .advantages{
     display: flex;
@@ -163,7 +163,120 @@ nav ul{
 } */
 .deal-of-the-day img{
     /* margin: 2rem; */
-    /* margin-left: 1rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    /* margin-top: 1rem; */
+    width: 90%;
+    height: auto;
+    
+}
+.find-out-more{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.find-out-more .images{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    /* width: 40%; */
+    /* height: auto; */
+}
+.find-out-more .images img{
+    width: 50%;
+    height: 60%;
+}
+.find-out-more .images .image2{
+    padding-top:3rem ;
+}
+.find-out-more .aliwala{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+.find-out-more .the-stationary-comp{
+    color: rgb(1, 1, 193);
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+.find-out-more .para{
+    /* font-size: 1rem; */
+    font-weight: 500;
+    color: grey;
+    line-height: 1.5rem;
+}
+.find-out-more .findoutmore{
+    border: 2px solid black;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 500;
+    border-radius: 3rem;
+}
+/* Explore section */
+.explore-now{
+    margin: 2rem 1rem 2rem 1rem;
+    position: relative;
+
+}
+.explore-now .bimage img{
     width: 100%;
     height: auto;
+    /* position: ; */
+    /* z-index: 0; */
+    /* margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem; */
+    position: absolute;
+    /* float: wrap; */
 }
+.explore-now .text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    /* z-index: 5; */
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+}
+.explore-now .text .small-head{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.explore-now .text .main-head{
+    font-size: 2.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.explore-now .text .explore-now-button{
+    color: black;
+    border: 1px solid white;
+    padding: 0.5rem;
+    font-weight: 800;
+    font-size:1.1rem ;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 1.5rem;
+}
+/* contact-us section */
+/* .contact-us{
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.contact-us p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: darkblue;
+}
+.contact-us .cont-us-btn{
+
+} */
