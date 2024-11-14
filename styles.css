@@ -370,3 +370,58 @@ nav ul{
     left:40%;
     top: 90%;
 }
+/* footer */
+footer{
+    padding:1rem 1rem 1rem 1rem ;
+    background-color: rgb(8, 37, 51);
+    color: white;
+}
+footer .subscribe{
+    font-size: 1.7rem;
+    text-align: center;
+}
+footer .email{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    background-color: white;
+    /* align-items: center;
+    width: 90%; */
+}
+footer .email input{
+    border: none;
+    width: 70%;
+    padding: 0.7rem;
+    margin-right: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+}
+footer .email input:focus{
+    border: 2px solid rgb(255, 0, 0);
+}
+footer .email button{
+    font-size: 1.1rem;
+    border: none;
+    margin-left: 0;
+    padding: 0.7rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    color: rgb(8, 37, 51);
+}
+footer img{
+    align-items: center;
+    /* margin-left: 40%; */
+    width: 30%;
+    height: auto;
+    /* margin-left: 30%; */
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+footer .we-believe{
+    text-align: center;
+}
+footer .paires{
+    display: flex;
+}
