@@ -411,6 +411,9 @@ footer .email button{
     font-weight: 600;
     color: rgb(8, 37, 51);
 }
+/* footer .email button:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+} */
 footer img{
     align-items: center;
     /* margin-left: 40%; */
