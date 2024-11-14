@@ -409,7 +409,7 @@ footer .email button{
     background-color: white;
     border-radius: 1.5rem;
     font-weight: 600;
-    color: rgb(8, 37, 51);
+    color: rgb(17, 41, 63);
 }
 /* footer .email button:hover{
     background-color: rgba(255, 255, 255, 0.842);
@@ -417,7 +417,7 @@ footer .email button{
 footer img{
     align-items: center;
     /* margin-left: 40%; */
-    width: 30%;
+    width: 40%;
     height: auto;
     /* margin-left: 30%; */
     padding-top: 5rem;
