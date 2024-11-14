@@ -5,444 +5,933 @@ body{
     width: 100%;
     height: auto;
     font-family: karla;
+    overflow-x: hidden;
 }
-header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: rgb(247, 246, 246);
-    vertical-align: middle;
-    /* border: 1px solid black; */
-}
-nav ul{
-    margin-top: 0.2rem;
-    margin-bottom: 0;
-    list-style: none;
-    padding-left: 1.5rem;
-    padding-top: 0.8rem;
-    padding-right: 1.5;
-    display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-}
-.menubar{
-    padding-top: 0.5rem;
-    padding-right: 2rem;
-    vertical-align: middle;
-}
-.heroimage img{
-    width: 100%;
-    /* height: ; */
-}
-.unleashyour {
-    position: absolute;
-    top: 8%;
-    /* left: 8%; */
-    width: 100%;
-    /* padding-bottom: 7rem; */
-    text-align: center;    
-    line-height: 3rem;
-    color: white;
-    font-weight: 500;
-    font-size: 2.2rem;
-}
-.appgooglestore {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    padding-top: 1.8rem;
-    top: 40%;
-    left: 25%;
-    /* gap: 2rem; */
-    /* align-items: center; */
-    line-height:2rem;    
-}
-.dots{
-    width: 25%;
-    height: auto;
-    position: absolute;
-    top: 80%;
-    left: 35%;
-    padding-top: 1rem;
-
-    /* align-items: center; */
-    line-height:3.5rem;  
-}
-.advantages{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.advantages img{
-    width: 3.5rem;
-    height: auto;
-    /* padding-left: 1.3rem; */
-    
-}
-.advant{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-    align-items: center;
-    /* line-height: 1rem; */
-}
-.advantages .heading{
-    font-size: 1.3rem;
-    text-align: center;
-    font-weight: 700;
-    color: rgb(0, 0, 131);
-    line-height: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.2rem;
-}
-.advantages p{
-    text-align: center;
-}
-
-.products img{
-    width: 88%;
-    height: auto;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 2rem;
-}
-/* .products .heading{
-    position: fixed;
-    top: 0%;
-    left: 50%;
-} */
-.image-container {
-    position: relative;
-    text-align: center; 
-}
-
-.image-container .heading{
-    position: absolute;
-    top: 53%; 
-    left: 12%;
-    font-size: 1.7rem;
-    color: white;
-    font-weight: 500;
-    border: none;
-}
-.image-container p{
-    position: absolute;
-    top: 70%; 
-    left: 15%;
-    /* font-size: 1.5rem; */
-    color: rgba(255, 255, 255, 0.708);
-    /* font-weight: 500; */
-    border: 2px solid rgba(255, 255, 255, 0.708);
-    border-radius: 0.8rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    /* padding: 0.1rem; */
-}
-/* feautures section */
-.features{
-    margin: 2rem;
-}
-.features .text-features{
-    text-align: center;
-    font-size: 1.8rem;
-    color: rgb(0, 0, 121);
-    font-weight: 500;
-}
-.individual-feature img{
-    height: 12rem;
-    width: auto;
-}
-.features .featured-slide{
-    display: flex;
-    width: 100%;
-    overflow-x: auto; /*mainly reposible for scrolling*/
-    gap: 1.5rem;
-}
-/* Deal of the day */
-/* .deal-of-the-day{
-    width: 100%;
-    height: auto;
-} */
-.deal-of-the-day img{
-    /* margin: 2rem; */
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1.5rem;
-    /* margin-top: 1rem; */
-    width: 90%;
-    height: auto;
-    
-}
-.find-out-more{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-}
-.find-out-more .images{
-    display: flex;
-    justify-content: space-between;
-    gap: 1.2rem;
-    /* width: 40%; */
-    /* height: auto; */
-}
-.find-out-more .images img{
-    width: 50%;
-    height: 60%;
-}
-.find-out-more .images .image2{
-    padding-top:3rem ;
-}
-.find-out-more .aliwala{
-    color: red;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
-    /* margin-bottom: 0; */
-}
-.find-out-more .the-stationary-comp{
-    color: rgb(1, 1, 193);
-    font-size: 2.5em;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0.7rem;
-}
-.find-out-more .para{
-    /* font-size: 1rem; */
-    font-weight: 500;
-    color: grey;
-    line-height: 1.5rem;
-}
-.find-out-more .findoutmore{
-    border: 2px solid black;
-    padding: 0.2rem;
-    font-size: 1rem;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-weight: 500;
-    border-radius: 3rem;
-}
-/* Explore section */
-.explore-now{
-    margin: 2rem 1rem 2rem 1rem;
-    position: relative;
-    overflow: hidden;
-
-}
-.explore-now .bimage img{
-    width: 100%;
-    height: auto;
-    display: blocks;
-    /* position: ; */
-    /* z-index: 500; */
-    /* margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem; */
-    /* position: absolute; */
-    /* float: wrap; */
-}
-.explore-now .text{
-    /* text-align: center; */
-    /* color: white; */
-    /* position: absolute; */
-    /* z-index: 1000; */
-    /* display: block; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center; 
-    text-align: center;
-    color: white;
-}
-.explore-now .text .small-head{
-    margin-top: 2rem;
-    margin-bottom: 0;
-}
-.explore-now .text .main-head{
-    font-size: 1.8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1.3rem;
-}
-.explore-now .text .explore-now-button{
-    color: black;
-    border: 1px solid white;
-    padding: 0.5rem;
-    font-weight: 600;
-    font-size:1.1rem ;
-    background-color: white;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 1.5rem;
-}
-/* contact-us section */
-.contact-us{
-    margin: 1rem 1rem 1rem 1rem;
-    text-align: center;
-    position: relative;
-}
-.contact-us p{
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: darkblue;
-}
-.contact-us .cont-us-btn{
-    font-size: 1.2rem;
-    padding: 0.3rem;
-    color: black;
-    font-weight: 600;
-    border: 2px solid black;
-    margin-left: 28%;
-    margin-right: 28%;
-    border-radius: 1.5rem;
-}
-/* testimonials */
-.testimonials{
-    margin: 4rem 0rem 1rem 0rem;
-    text-align: left;
-    position: relative;
-}
-.testimonials .text{
-    margin: 0rem 1.2rem 1rem 1rem;
-}
-.testimonials .text .testimonials-word{
-    font-weight: 600;
-    color: red;
-}
-.testimonials .text .what-our{
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgb(22, 22, 109);
-}
-.testimonials .text p{
-    color: grey;
-    font-size:1.2rem;
-    font-weight:600;
-}
-.testimonials .feedback{
-    padding: 2rem 2rem 4rem 2rem;
-    background-color: rgb(241, 243, 250);
-}
-.testimonials .profile{
-    background-color: white;
-    padding: 1rem;
-    display: flex;
-    margin-bottom: 0;
-}
-.testimonials .profile img{
-    width: 25%;
-    height: 25%;
-    padding-right: 1rem;
-}
-.testimonials .profile .name{
-    font-weight: 700;
-}
-.testimonials .profile .company{
-    font-weight: 600;
-}
-.testimonials .feedback .from{
-    background-color: white;
-    margin-top: 0;
-    padding: 1rem;
-    font-weight: 600;
-    color: grey;
-}
-.testimonials .double-quotes{
+@media screen and (min-width: 300px)
+{
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: rgb(247, 246, 246);
+        vertical-align: middle;
+        /* border: 1px solid black; */
+    }
+    .desk-get-in-touch{
+        display: none;
+    }
+    nav ul{
+        margin-top: 0.2rem;
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 1.5rem;
+        padding-top: 0.8rem;
+        padding-right: 1.5;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+    .menubar{
+        padding-top: 0.5rem;
+        padding-right: 2rem;
+        vertical-align: middle;
+    }
+    .heroimage {
+        background-image: url('Mobile-images/Hero-banner-mobile.png'); /* Mobile image */
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 70vh; 
+    }
+    .heroimage img{
+        width: 100%;
+        /* height: ; */
+    }
+    .unleashyour {
         position: absolute;
-        right: 5%;
-        top: 45%;
+        top: 8%;
+        /* left: 8%; */
+        width: 100%;
+        /* padding-bottom: 7rem; */
+        text-align: center;    
+        line-height: 3rem;
+        color: white;
+        font-weight: 500;
+        font-size: 2.2rem;
+    }
+    .appgooglestore {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        padding-top: 1.8rem;
+        top: 40%;
+        left: 25%;
+        /* gap: 2rem; */
+        /* align-items: center; */
+        line-height:2rem;    
+    }
+    .dots{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+        left: 35%;
+        padding-top: 1rem;
+    
+        /* align-items: center; */
+        line-height:3.5rem;  
+    }
+    .advantages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .advantages img{
+        width: 3.5rem;
+        height: auto;
+        /* padding-left: 1.3rem; */
+        
+    }
+    .advant{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        align-items: center;
+        /* line-height: 1rem; */
+    }
+    .advantages .heading{
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 700;
+        color: rgb(0, 0, 131);
+        line-height: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 0.2rem;
+    }
+    .advantages p{
+        text-align: center;
+    }
+    
+    .products img{
+        width: 88%;
+        height: auto;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 2rem;
+    }
+    /* .products .heading{
+        position: fixed;
+        top: 0%;
+        left: 50%;
+    } */
+    .image-container {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .image-container .heading{
+        position: absolute;
+        top: 53%; 
+        left: 12%;
+        font-size: 1.7rem;
+        color: white;
+        font-weight: 500;
+        border: none;
+    }
+    .image-container p{
+        position: absolute;
+        top: 70%; 
+        left: 15%;
+        /* font-size: 1.5rem; */
+        color: rgba(255, 255, 255, 0.708);
+        /* font-weight: 500; */
+        border: 2px solid rgba(255, 255, 255, 0.708);
+        border-radius: 0.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        /* padding: 0.1rem; */
+    }
+    /* feautures section */
+    .features{
+        margin: 2rem;
+    }
+    .features .text-features{
+        text-align: center;
+        font-size: 1.8rem;
+        color: rgb(0, 0, 121);
+        font-weight: 500;
+    }
+    .individual-feature img{
+        height: 12rem;
+        width: auto;
+    }
+    .features .featured-slide{
+        display: flex;
+        width: 100%;
+        overflow-x: auto; /*mainly reposible for scrolling*/
+        gap: 1.5rem;
+    }
+    /* Deal of the day */
+    /* .deal-of-the-day{
+        width: 100%;
+        height: auto;
+    } */
+    .deal-of-the-day img{
+        /* margin: 2rem; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+        /* margin-top: 1rem; */
+        width: 90%;
+        height: auto;
+        
+    }
+    .find-out-more{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    .find-out-more .images{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.2rem;
+        /* width: 40%; */
+        /* height: auto; */
+    }
+    .find-out-more .images img{
+        width: 50%;
+        height: 60%;
+    }
+    .find-out-more .images .image2{
+        padding-top:3rem ;
+    }
+    .find-out-more .aliwala{
+        color: red;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        /* margin-bottom: 0; */
+    }
+    .find-out-more .the-stationary-comp{
+        color: rgb(1, 1, 193);
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0.7rem;
+    }
+    .find-out-more .para{
+        /* font-size: 1rem; */
+        font-weight: 500;
+        color: grey;
+        line-height: 1.5rem;
+    }
+    .find-out-more .findoutmore{
+        border: 2px solid black;
+        padding: 0.2rem;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-weight: 500;
+        border-radius: 3rem;
+    }
+    /* Explore section */
+    .explore-now{
+        margin: 2rem 1rem 2rem 1rem;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    .explore-now .bimage img{
+        width: 100%;
+        height: auto;
+        display: blocks;
+        /* position: ; */
+        /* z-index: 500; */
+        /* margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem; */
+        /* position: absolute; */
+        /* float: wrap; */
+    }
+    .explore-now .text{
+        /* text-align: center; */
+        /* color: white; */
+        /* position: absolute; */
+        /* z-index: 1000; */
+        /* display: block; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center; 
+        text-align: center;
+        color: white;
+    }
+    .explore-now .text .small-head{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .explore-now .text .main-head{
+        font-size: 1.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1.3rem;
+    }
+    .explore-now .text .explore-now-button{
+        color: black;
+        border: 1px solid white;
+        padding: 0.5rem;
+        font-weight: 600;
+        font-size:1.1rem ;
+        background-color: white;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 1.5rem;
+    }
+    /* contact-us section */
+    .contact-us{
+        margin: 1rem 1rem 1rem 1rem;
+        text-align: center;
+        position: relative;
+    }
+    .contact-us p{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: darkblue;
+    }
+    .contact-us .cont-us-btn{
+        font-size: 1.2rem;
+        padding: 0.3rem;
+        color: black;
+        font-weight: 600;
+        border: 2px solid black;
+        margin-left: 28%;
+        margin-right: 28%;
+        border-radius: 1.5rem;
+    }
+    /* testimonials */
+    .testimonials{
+        margin: 4rem 0rem 1rem 0rem;
+        text-align: left;
+        position: relative;
+    }
+    .testimonials .text{
+        margin: 0rem 1.2rem 1rem 1rem;
+    }
+    .testimonials .text .testimonials-word{
+        font-weight: 600;
+        color: red;
+    }
+    .testimonials .text .what-our{
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(22, 22, 109);
+    }
+    .testimonials .text p{
+        color: grey;
+        font-size:1.2rem;
+        font-weight:600;
+    }
+    .testimonials .feedback{
+        padding: 2rem 2rem 4rem 2rem;
+        background-color: rgb(241, 243, 250);
+    }
+    .testimonials .profile{
+        background-color: white;
+        padding: 1rem;
+        display: flex;
+        margin-bottom: 0;
+    }
+    .testimonials .profile img{
+        width: 25%;
+        height: 25%;
+        padding-right: 1rem;
+    }
+    .testimonials .profile .name{
+        font-weight: 700;
+    }
+    .testimonials .profile .company{
+        font-weight: 600;
+    }
+    .testimonials .feedback .from{
+        background-color: white;
+        margin-top: 0;
+        padding: 1rem;
+        font-weight: 600;
+        color: grey;
+    }
+    .testimonials .double-quotes{
+            position: absolute;
+            right: 5%;
+            top: 45%;
+    }
+    .testimonials .arrows{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        left:40%;
+        top: 90%;
+    }
+    /* footer */
+    footer{
+        padding:1rem 1rem 1rem 1rem ;
+        background-color: rgb(12, 27, 61);
+        color: white;
+        text-align: center;
+    }
+    footer .subscribe{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    footer .email{
+        display: flex;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 1.5rem;
+        background-color: white;
+        /* align-items: center;
+        width: 90%; */
+    }
+    footer .email input{
+        border: none;
+        width: 70%;
+        padding: 0.7rem;
+        margin-right: 0;
+        padding-right: 0;
+        box-sizing: border-box;
+        border-radius: 1.5rem;
+    }
+    footer .email input:focus{
+        border: 2px solid rgb(255, 0, 0);
+    }
+    footer .email button{
+        font-size: 1.1rem;
+        border: none;
+        margin-left: 0;
+        padding: 0.7rem;
+        background-color: white;
+        border-radius: 1.5rem;
+        font-weight: 600;
+        color: rgb(17, 41, 63);
+    }
+    /* footer .email button:hover{
+        background-color: rgba(255, 255, 255, 0.842);
+    } */
+    footer img{
+        align-items: center;
+        /* margin-left: 40%; */
+        width: 40%;
+        height: auto;
+        /* margin-left: 30%; */
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+    footer .we-believe{
+        text-align: center;
+    }
+    footer .paires{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    footer .need-help{
+        text-align: center;
+    }
+    footer .num{
+        font-size: 1.5rem;
+        color: rgb(243, 82, 136);
+    }
+    footer .copyright{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    footer .designed{
+        padding-bottom: 1rem;
+    }
 }
-.testimonials .arrows{
-    width: 20%;
-    height: auto;
-    position: absolute;
-    left:40%;
-    top: 90%;
-}
-/* footer */
-footer{
-    padding:1rem 1rem 1rem 1rem ;
-    background-color: rgb(8, 37, 51);
-    color: white;
-    text-align: center;
-}
-footer .subscribe{
-    font-size: 1.7rem;
-    text-align: center;
-}
-footer .email{
-    display: flex;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 1.5rem;
-    background-color: white;
-    /* align-items: center;
-    width: 90%; */
-}
-footer .email input{
-    border: none;
-    width: 70%;
-    padding: 0.7rem;
-    margin-right: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-    border-radius: 1.5rem;
-}
-footer .email input:focus{
-    border: 2px solid rgb(255, 0, 0);
-}
-footer .email button{
-    font-size: 1.1rem;
-    border: none;
-    margin-left: 0;
-    padding: 0.7rem;
-    background-color: white;
-    border-radius: 1.5rem;
-    font-weight: 600;
-    color: rgb(17, 41, 63);
-}
-/* footer .email button:hover{
-    background-color: rgba(255, 255, 255, 0.842);
-} */
-footer img{
-    align-items: center;
-    /* margin-left: 40%; */
-    width: 40%;
-    height: auto;
-    /* margin-left: 30%; */
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-}
-footer .we-believe{
-    text-align: center;
-}
-footer .paires{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-footer .need-help{
-    text-align: center;
-}
-footer .num{
-    font-size: 1.5rem;
-    color: rgb(243, 82, 136);
-}
-footer .copyright{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-footer .designed{
-    padding-bottom: 1rem;
+@media screen and (min-width: 900px)
+{
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: rgb(247, 246, 246);
+        vertical-align: middle;
+        /* border: 1px solid black; */
+    }
+    header .menubar{
+        display: none;
+
+    }
+    .desk-get-in-touch{
+        display: block;
+        padding-right:1rem ;
+        margin-top: 0.5rem;
+        margin-right: 0.3rem;
+        border: 1px solid black;
+        padding: 0.5rem;
+        border-radius: 1.5rem;
+    }
+    /* nav ul{
+        margin-top: 0.2rem;
+        margin-bottom: 0;
+        list-style: none;
+        padding-left: 1.5rem;
+        padding-top: 0.8rem;
+        padding-right: 1.5;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    } */
+    /* .menubar{
+        padding-top: 0.5rem;
+        padding-right: 2rem;
+        vertical-align: middle;
+    } */
+    
+    .heroimage {
+        background-image: url('Desktop-images/Hero-banner.png');
+        /* width: 100%;
+        height: 100vh; */
+    }
+     
+
+    /* .heroimage img{
+        background-image: url(Desktop-images/Hero-banner.png);
+        width: 100%;
+        height: ;
+    } */
+    .unleashyour {
+        position: static;
+        /* top: 50%; */
+        left: 10%;
+        padding-left: 5%;
+        padding-top: 8%;
+        margin-top: 0;
+        /* width: 100%; */
+        /* padding-bottom: 7rem; */
+        text-align: left;    
+        line-height: 5rem;
+        color: white;
+        font-weight: 500;
+        font-size: 4rem;
+    }
+    .appgooglestore {
+        display: flex;
+        width: 20%;
+        height: auto;
+        position: absolute;
+        padding-top: 1.8rem;
+        top: 60%;
+        left: 6%;
+        gap: 2rem;
+        /* align-items: center; */
+        line-height:2rem;    
+    }
+    .dots{
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 80%;
+        left: 220%;
+        padding-top: 1rem;
+    
+        /* align-items: center; */
+        line-height:3.5rem;  
+    }
+    .advantages{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 8rem;
+    }
+    .advantages img{
+        width: 3rem;
+        height: auto;
+        /* padding-left: 1.3rem; */
+        
+    }
+    .advant{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        align-items: left;
+        padding-left: 5rem;
+        /* line-height: 1rem; */
+    }
+    .advantages .heading{
+        font-size: 1.3rem;
+        text-align: left;
+        font-weight: 700;
+        color: rgb(0, 0, 131);
+        line-height: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .advantages p{
+        text-align: center;
+        margin-top: 0;
+    }
+    .advant .advant-text{
+        padding-left: 1rem;
+    }
+    
+    .products img{
+        width: 88%;
+        height: auto;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 2rem;
+    }
+    /* .products .heading{
+        position: fixed;
+        top: 0%;
+        left: 50%;
+    } */
+    .image-container {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .image-container .heading{
+        position: absolute;
+        top: 53%; 
+        left: 12%;
+        font-size: 1.7rem;
+        color: white;
+        font-weight: 500;
+        border: none;
+    }
+    .image-container p{
+        position: absolute;
+        top: 70%; 
+        left: 15%;
+        /* font-size: 1.5rem; */
+        color: rgba(255, 255, 255, 0.708);
+        /* font-weight: 500; */
+        border: 2px solid rgba(255, 255, 255, 0.708);
+        border-radius: 0.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        /* padding: 0.1rem; */
+    }
+    /* feautures section */
+    .features{
+        margin: 2rem;
+    }
+    .features .text-features{
+        text-align: center;
+        font-size: 1.8rem;
+        color: rgb(0, 0, 121);
+        font-weight: 500;
+    }
+    .individual-feature img{
+        height: 12rem;
+        width: auto;
+    }
+    .features .featured-slide{
+        display: flex;
+        width: 100%;
+        overflow-x: auto; /*mainly reposible for scrolling*/
+        gap: 1.5rem;
+    }
+    /* Deal of the day */
+    /* .deal-of-the-day{
+        width: 100%;
+        height: auto;
+    } */
+    .deal-of-the-day img{
+        /* margin: 2rem; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+        /* margin-top: 1rem; */
+        width: 90%;
+        height: auto;
+        
+    }
+    .find-out-more{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    .find-out-more .images{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.2rem;
+        /* width: 40%; */
+        /* height: auto; */
+    }
+    .find-out-more .images img{
+        width: 50%;
+        height: 60%;
+    }
+    .find-out-more .images .image2{
+        padding-top:3rem ;
+    }
+    .find-out-more .aliwala{
+        color: red;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        /* margin-bottom: 0; */
+    }
+    .find-out-more .the-stationary-comp{
+        color: rgb(1, 1, 193);
+        font-size: 2.5em;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0.7rem;
+    }
+    .find-out-more .para{
+        /* font-size: 1rem; */
+        font-weight: 500;
+        color: grey;
+        line-height: 1.5rem;
+    }
+    .find-out-more .findoutmore{
+        border: 2px solid black;
+        padding: 0.2rem;
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-weight: 500;
+        border-radius: 3rem;
+    }
+    /* Explore section */
+    .explore-now{
+        margin: 2rem 1rem 2rem 1rem;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    .explore-now .bimage img{
+        width: 100%;
+        height: auto;
+        display: blocks;
+        /* position: ; */
+        /* z-index: 500; */
+        /* margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem; */
+        /* position: absolute; */
+        /* float: wrap; */
+    }
+    .explore-now .text{
+        /* text-align: center; */
+        /* color: white; */
+        /* position: absolute; */
+        /* z-index: 1000; */
+        /* display: block; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center; 
+        text-align: center;
+        color: white;
+    }
+    .explore-now .text .small-head{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .explore-now .text .main-head{
+        font-size: 1.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 1.3rem;
+    }
+    .explore-now .text .explore-now-button{
+        color: black;
+        border: 1px solid white;
+        padding: 0.5rem;
+        font-weight: 600;
+        font-size:1.1rem ;
+        background-color: white;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 1.5rem;
+    }
+    /* contact-us section */
+    .contact-us{
+        margin: 1rem 1rem 1rem 1rem;
+        text-align: center;
+        position: relative;
+    }
+    .contact-us p{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: darkblue;
+    }
+    .contact-us .cont-us-btn{
+        font-size: 1.2rem;
+        padding: 0.3rem;
+        color: black;
+        font-weight: 600;
+        border: 2px solid black;
+        margin-left: 28%;
+        margin-right: 28%;
+        border-radius: 1.5rem;
+    }
+    /* testimonials */
+    .testimonials{
+        margin: 4rem 0rem 1rem 0rem;
+        text-align: left;
+        position: relative;
+    }
+    .testimonials .text{
+        margin: 0rem 1.2rem 1rem 1rem;
+    }
+    .testimonials .text .testimonials-word{
+        font-weight: 600;
+        color: red;
+    }
+    .testimonials .text .what-our{
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(22, 22, 109);
+    }
+    .testimonials .text p{
+        color: grey;
+        font-size:1.2rem;
+        font-weight:600;
+    }
+    .testimonials .feedback{
+        padding: 2rem 2rem 4rem 2rem;
+        background-color: rgb(241, 243, 250);
+    }
+    .testimonials .profile{
+        background-color: white;
+        padding: 1rem;
+        display: flex;
+        margin-bottom: 0;
+    }
+    .testimonials .profile img{
+        width: 25%;
+        height: 25%;
+        padding-right: 1rem;
+    }
+    .testimonials .profile .name{
+        font-weight: 700;
+    }
+    .testimonials .profile .company{
+        font-weight: 600;
+    }
+    .testimonials .feedback .from{
+        background-color: white;
+        margin-top: 0;
+        padding: 1rem;
+        font-weight: 600;
+        color: grey;
+    }
+    .testimonials .double-quotes{
+            position: absolute;
+            right: 5%;
+            top: 45%;
+    }
+    .testimonials .arrows{
+        width: 20%;
+        height: auto;
+        position: absolute;
+        left:40%;
+        top: 90%;
+    }
+    /* footer */
+    footer{
+        padding:1rem 1rem 1rem 1rem ;
+        background-color: rgb(12, 27, 61);
+        color: white;
+        text-align: center;
+    }
+    footer .subscribe{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    footer .email{
+        display: flex;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 1.5rem;
+        background-color: white;
+        /* align-items: center;
+        width: 90%; */
+    }
+    footer .email input{
+        border: none;
+        width: 70%;
+        padding: 0.7rem;
+        margin-right: 0;
+        padding-right: 0;
+        box-sizing: border-box;
+        border-radius: 1.5rem;
+    }
+    footer .email input:focus{
+        border: 2px solid rgb(255, 0, 0);
+    }
+    footer .email button{
+        font-size: 1.1rem;
+        border: none;
+        margin-left: 0;
+        padding: 0.7rem;
+        background-color: white;
+        border-radius: 1.5rem;
+        font-weight: 600;
+        color: rgb(17, 41, 63);
+    }
+    /* footer .email button:hover{
+        background-color: rgba(255, 255, 255, 0.842);
+    } */
+    footer img{
+        align-items: center;
+        /* margin-left: 40%; */
+        width: 40%;
+        height: auto;
+        /* margin-left: 30%; */
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+    footer .we-believe{
+        text-align: center;
+    }
+    footer .paires{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    footer .need-help{
+        text-align: center;
+    }
+    footer .num{
+        font-size: 1.5rem;
+        color: rgb(243, 82, 136);
+    }
+    footer .copyright{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    footer .designed{
+        padding-bottom: 1rem;
+    }
 }
