@@ -39,20 +39,23 @@ nav ul{
     top: 8%;
     /* left: 8%; */
     width: 100%;
+    /* padding-bottom: 7rem; */
     text-align: center;    
     line-height: 3rem;
     color: white;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 .appgooglestore {
     width: 50%;
     height: auto;
     position: absolute;
+    padding-top: 1.8rem;
     top: 40%;
     left: 25%;
+    /* gap: 2rem; */
     /* align-items: center; */
-    line-height:3.5rem;    
+    line-height:2rem;    
 }
 .dots{
     width: 25%;
@@ -60,6 +63,8 @@ nav ul{
     position: absolute;
     top: 80%;
     left: 35%;
+    padding-top: 1rem;
+
     /* align-items: center; */
     line-height:3.5rem;  
 }
@@ -214,7 +219,7 @@ nav ul{
 .find-out-more .findoutmore{
     border: 2px solid black;
     padding: 0.2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
@@ -265,7 +270,7 @@ nav ul{
     margin-bottom: 0;
 }
 .explore-now .text .main-head{
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 1.3rem;
@@ -274,7 +279,7 @@ nav ul{
     color: black;
     border: 1px solid white;
     padding: 0.5rem;
-    font-weight: 800;
+    font-weight: 600;
     font-size:1.1rem ;
     background-color: white;
     margin-left: 30%;
@@ -294,9 +299,9 @@ nav ul{
 }
 .contact-us .cont-us-btn{
     font-size: 1.2rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     color: black;
-    font-weight: 800;
+    font-weight: 600;
     border: 2px solid black;
     margin-left: 28%;
     margin-right: 28%;
@@ -355,13 +360,13 @@ nav ul{
 }
 .testimonials .double-quotes{
         position: absolute;
-        right: 0.5rem;
-        top: 15rem;
+        right: 5%;
+        top: 45%;
 }
 .testimonials .arrows{
     width: 20%;
     height: auto;
     position: absolute;
-    left:10rem;
-    top: 31rem;
+    left:40%;
+    top: 90%;
 }
