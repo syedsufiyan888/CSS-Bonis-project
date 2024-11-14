@@ -375,6 +375,7 @@ footer{
     padding:1rem 1rem 1rem 1rem ;
     background-color: rgb(8, 37, 51);
     color: white;
+    text-align: center;
 }
 footer .subscribe{
     font-size: 1.7rem;
@@ -424,4 +425,21 @@ footer .we-believe{
 }
 footer .paires{
     display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer .need-help{
+    text-align: center;
+}
+footer .num{
+    font-size: 1.5rem;
+    color: rgb(243, 82, 136);
+}
+footer .copyright{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer .designed{
+    padding-bottom: 1rem;
 }
