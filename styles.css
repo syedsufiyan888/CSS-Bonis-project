@@ -383,6 +383,9 @@ body{
         left:40%;
         top: 90%;
     }
+    .testimonials .feedback-image-2{
+        display: none;
+    }
     /* footer */
     footer{
         padding:1rem 1rem 1rem 1rem ;
@@ -612,11 +615,19 @@ body{
     .image-container {
         /* position: relative;
         text-align: center;  */
-        display: none;
-        grid-template-rows:1rem 1rem 1rem 1rem;
-        grid-template-columns: 6rem 1rem 1rem 1rem;
+        /* display: none; */
+        /* grid-template-rows:1rem 1rem 1rem 1rem;
+        grid-template-columns: 6rem 1rem 1rem 1rem; */
     }
-    
+    /* @media (min-width:900px)  {
+        .image-container{
+            display: block;
+            background-image: url('Mobile-images/Hero-banner-mobile.png'); 
+        background-size: cover;
+        background-position: center;
+        }
+    }
+     */
     .image-container .heading{
         position: absolute;
         top: 53%; 
@@ -640,16 +651,37 @@ body{
         /* padding: 0.1rem; */
     }
     .image-container img{
-        display: block;
+        display: flex;
+    }
+    .products{
+        display: none;
+        /* display: flex; */
     }
     .products .individual-prod-1 img{
+        width: 10rem;
         /* display: block; */
-        background-image: url('Mobile-images/Hero-banner-mobile.png'); 
+        /* background-image: url('Mobile-images/Hero-banner-mobile.png'); 
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         /* width: 100%;
         height: 70vh;  */
     }
+    .products .individual-prod-2 .mobile-image{
+        display: none;
+    }
+    .products .individual-prod-2 img{
+        width: 40%;
+
+    }
+    .products .individual-prod-4 .mobile-image{
+        display: none;
+    }
+    .products .individual-prod-3 img{
+        width: 10rem;
+    }    
+    .products .individual-prod-4 img{
+        width: 10rem;
+    }    
     /* feautures section */
     .features{
         margin: 2rem;
@@ -661,7 +693,7 @@ body{
         font-weight: 500;
     }
     .individual-feature img{
-        height: 10rem;
+        height: 9rem;
         width: auto;
     }
     .features .featured-slide{
@@ -678,38 +710,49 @@ body{
     .deal-of-the-day img{
         background-image: url(Desktop-images/);
         /* margin: 2rem; */
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 1.5rem;
         /* margin-top: 1rem; */
-        width: 90%;
+        width: 100%;
         height: auto;
         
     }
+    .deal-of-the-day .desktop-image-dod{
+        display: block;
+    }
+    /* Find Out More */
+    .the-stationary-comp{
+        display: none;
+    }
     .find-out-more{
+        display: flex;
         margin-left: 1rem;
         margin-right: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
     .find-out-more .images{
         display: flex;
         justify-content: space-between;
         gap: 1.2rem;
-        /* width: 40%; */
+        margin-left: 10%;
+        width: 40%;
         /* height: auto; */
     }
     .find-out-more .images img{
-        width: 50%;
-        height: 60%;
+        width: 100%;
+        height: 100%;
     }
     .find-out-more .images .image2{
         padding-top:3rem ;
     }
     .find-out-more .aliwala{
+        padding-left: 30%;
+
         color: red;
         font-size: 1.2rem;
         font-weight: 600;
-        text-align: center;
+        text-align: left;
         /* margin-bottom: 0; */
     }
     .find-out-more .the-stationary-comp{
@@ -721,7 +764,9 @@ body{
         margin-bottom: 0.7rem;
     }
     .find-out-more .para{
-        /* font-size: 1rem; */
+        padding-left: 30%;
+        padding-top: 5rem;
+        font-size: 1rem;
         font-weight: 500;
         color: grey;
         line-height: 1.5rem;
@@ -731,8 +776,8 @@ body{
         padding: 0.2rem;
         font-size: 1rem;
         text-align: center;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 30%;
+        margin-right: 45%;
         font-weight: 500;
         border-radius: 3rem;
     }
@@ -746,7 +791,9 @@ body{
     .explore-now .bimage img{
         width: 100%;
         height: auto;
-        display: blocks;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
         /* position: ; */
         /* z-index: 500; */
         /* margin-left: 1rem;
@@ -754,6 +801,14 @@ body{
         margin-top: 1rem; */
         /* position: absolute; */
         /* float: wrap; */
+    }
+    .explore-now .bimage .mobile-image{
+        display: none;
+    }
+    .explore-now .bimage .desktop-image-ex-now{
+        display: block;
+        width: 100%;
+        margin-left: 0;
     }
     .explore-now .text{
         /* text-align: center; */
@@ -764,9 +819,9 @@ body{
         /* justify-content: center; */
         /* align-items: center; */
         position: absolute;
-        top: 0;
+        top: 10%;
         left: 0;
-        width: 100%;
+        width: 80%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -798,6 +853,8 @@ body{
     }
     /* contact-us section */
     .contact-us{
+        display: flex;
+        justify-content: space-evenly;
         margin: 1rem 1rem 1rem 1rem;
         text-align: center;
         position: relative;
@@ -806,6 +863,8 @@ body{
         font-size: 1.8rem;
         font-weight: 600;
         color: darkblue;
+        text-align: left;
+        margin-left: 3rem;
     }
     .contact-us .cont-us-btn{
         font-size: 1.2rem;
@@ -813,12 +872,19 @@ body{
         color: black;
         font-weight: 600;
         border: 2px solid black;
-        margin-left: 28%;
-        margin-right: 28%;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         border-radius: 1.5rem;
+        width: 10rem;
+        height: 10%;
     }
     /* testimonials */
     .testimonials{
+        display: flex;
         margin: 4rem 0rem 1rem 0rem;
         text-align: left;
         position: relative;
@@ -872,6 +938,19 @@ body{
             position: absolute;
             right: 5%;
             top: 45%;
+    }
+    .testimonials .andrew-feedback{
+        width: 100%;
+        height: auto;
+    }
+    .feedback{
+        width: 50%;
+        height: auto;
+        position: absolute;
+
+    }
+    .feedback-image-2{
+        display: block;
     }
     .testimonials .arrows{
         width: 20%;
