@@ -676,6 +676,7 @@ body{
         height: auto;
     } */
     .deal-of-the-day img{
+        background-image: url(Desktop-images/);
         /* margin: 2rem; */
         margin-left: 1rem;
         margin-right: 1rem;
