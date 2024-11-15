@@ -608,10 +608,13 @@ body{
         top: 0%;
         left: 50%;
     } */
+    
     .image-container {
         /* position: relative;
         text-align: center;  */
-        display: grid;
+        display: none;
+        grid-template-rows:1rem 1rem 1rem 1rem;
+        grid-template-columns: 6rem 1rem 1rem 1rem;
     }
     
     .image-container .heading{
@@ -636,6 +639,17 @@ body{
         padding-right: 0.8rem;
         /* padding: 0.1rem; */
     }
+    .image-container img{
+        display: block;
+    }
+    .products .individual-prod-1 img{
+        /* display: block; */
+        background-image: url('Mobile-images/Hero-banner-mobile.png'); 
+        background-size: cover;
+        background-position: center;
+        /* width: 100%;
+        height: 70vh;  */
+    }
     /* feautures section */
     .features{
         margin: 2rem;
@@ -647,7 +661,7 @@ body{
         font-weight: 500;
     }
     .individual-feature img{
-        height: 12rem;
+        height: 10rem;
         width: auto;
     }
     .features .featured-slide{
@@ -656,7 +670,7 @@ body{
         overflow-x: auto; /*mainly reposible for scrolling*/
         gap: 1.5rem;
     }
-    /* Deal of the day */
+    /* Deal of the day section */
     /* .deal-of-the-day{
         width: 100%;
         height: auto;
