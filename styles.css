@@ -114,7 +114,7 @@ body{
     .advantages p{
         text-align: center;
     }
-    
+    /* products section */
     .products img{
         width: 88%;
         height: auto;
@@ -596,41 +596,46 @@ body{
         padding-left: 1rem;
     }
     /* product section */
-    .products {
-        display: flex;
-        width: 100vw;
-        height: 100vh; /*Consider removing this if not needed for the overall layout*/
-      }
-      
-      .image-container {
-        flex: 1; /* Distribute available space evenly among containers */
-        position: relative; /* Needed for absolute positioning of heading and paragraph*/
-        overflow: hidden; /* Hide any image overflow */
-      }
-      
-      .image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: bottom;
-      }
-      
-      .image-container .heading {
-        position: absolute;
-        bottom: 10%; /* Adjust as needed */
+    /* .products img{
+        width: 88%;
+        height: auto;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-bottom: 2rem;
+    } */
+    /* .products .heading{
+        position: fixed;
+        top: 0%;
         left: 50%;
-        transform: translateX(-50%); /* Center horizontally */
-        /* ... other styles ... */
-      }
-      
-      .image-container p {
+    } */
+    .image-container {
+        /* position: relative;
+        text-align: center;  */
+        display: grid;
+    }
+    
+    .image-container .heading{
         position: absolute;
-        bottom: 5%; /* Adjust as needed */
-        left: 50%;
-        transform: translateX(-50%); /* Center horizontally */
-        /* ... other styles ... */
-      }
-      
+        top: 53%; 
+        left: 12%;
+        font-size: 1.7rem;
+        color: white;
+        font-weight: 500;
+        border: none;
+    }
+    .image-container p{
+        position: absolute;
+        top: 70%; 
+        left: 15%;
+        /* font-size: 1.5rem; */
+        color: rgba(255, 255, 255, 0.708);
+        /* font-weight: 500; */
+        border: 2px solid rgba(255, 255, 255, 0.708);
+        border-radius: 0.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        /* padding: 0.1rem; */
+    }
     /* feautures section */
     .features{
         margin: 2rem;
