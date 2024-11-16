@@ -189,6 +189,9 @@ body{
         height: auto;
         
     }
+.desktop-image-dod{
+display: none;
+}
     .find-out-more{
         margin-left: 1rem;
         margin-right: 1rem;
